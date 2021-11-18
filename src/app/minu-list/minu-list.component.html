@@ -1,0 +1,24 @@
+<div class="ppar">
+
+
+<!-- [movie]="movie" -->
+    <!-- 
+
+<app-card-item></app-card-item>
+
+<app-card-item></app-card-item>
+<app-card-item></app-card-item> -->
+
+    <div *ngFor="let l of minuList">
+        <app-card-item [dat]="l"></app-card-item>
+
+    </div>
+
+    <!-- 
+<div>
+    <ul *ngFor="let m of minuList ">
+        <li>{{m.name}}</li>
+    </ul>
+</div> -->
+
+</div>

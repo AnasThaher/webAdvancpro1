@@ -1,0 +1,25 @@
+<div class="container">  
+    <form id="contact" action="" method="get" >
+      <h3>Add a new meal </h3>
+      <h4> </h4>
+      <fieldset>
+        <input placeholder="  a meal name" type="text" tabindex="1" required autofocus ngModel #name="ngModel" name="name">
+        <!-- <div hidden="name.errors"  class="alert alert-danger" role="alert">  plees Enter Name        </div> -->
+
+      </fieldset>
+      <fieldset>
+        <input placeholder="  Enter image URL" type="text" tabindex="2" required ngModel #imgurl="ngModel" name="imgurl">
+      </fieldset>
+      
+      <fieldset>
+        <input class="nu" placeholder="  price" type="number" tabindex="2" required ngModel #price="ngModel" name="price">
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="description" tabindex="5" required ngModel #description="ngModel" name="description"></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" >Submit</button>
+      </fieldset>
+      <!-- <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p> -->
+    </form>
+  </div>
